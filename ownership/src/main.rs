@@ -1,4 +1,11 @@
 fn main() {
+
+	 //Reference
+	 let s4 = String::from("Hello2");
+	 let len = calculate_length(&s4);
+	 println!("The length if '{}' is {}",s4,len);
+		  
+	 
 	 let s1 = gives_ownership();
 	 println!("{}",s1);
 
@@ -17,6 +24,9 @@ fn main() {
 	 println!("{}",x);
 }
 
+fn calculate_length(s:&String) -> usize {
+	 s.len()
+}
 
 fn takes_and_gives_back(a_string:String) -> String {
 	 a_string
