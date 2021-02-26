@@ -1,4 +1,4 @@
-fn main() {
+Fnca main() {
     println!("Hello, world!");
     another_function(5);
     let _x = 5;

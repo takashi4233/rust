@@ -1,0 +1,64 @@
+takashi@Pomegranate ownership % git commit 
+git commit 
+hint: Waiting for your editor to close the file...
+emacs -nw: emacs: command not found
+error: There was a problem with the editor 'emacs -nw'.
+Please supply the message using either -m or -F option.
+takashi@Pomegranate ownership % git commit -m "å‚ç…§"
+git commit -m "å<008f><0082>ç<0085>§"
+[master b590251] å‚ç…§
+ 45 files changed, 10 insertions(+)
+ rewrite ownership/target/debug/deps/ownership.dSYM/Contents/Resources/DWARF/ownership (63%)
+ delete mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45lx8iw1-1wy96rs-4mz1sdkactoz/16fqjf81bwmft49n.o
+ delete mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45lx8iw1-1wy96rs-4mz1sdkactoz/1w4h2cmtsffnmptp.o
+ delete mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45lx8iw1-1wy96rs-4mz1sdkactoz/2zcg5iiq14bkvxsf.o
+ delete mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45lx8iw1-1wy96rs-4mz1sdkactoz/58y2owtkhm01ey85.o
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/11br94uou788lyos.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/11halo77f1snx5kn.o (100%)
+ create mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45rsw4g3-szivol-2asdlxstg0ndo/16fqjf81bwmft49n.o
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/1a72awd61x0cu12p.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/1b8l2gvdpi4qoni0.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/1m658y2ju1ent57d.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/1nxx5y8k6ti6wku2.o (100%)
+ create mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45rsw4g3-szivol-2asdlxstg0ndo/1w4h2cmtsffnmptp.o
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/1xowxj70bqbgx658.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/243bhqv8b1z4l8n3.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/25zkioj2fn9jp3mi.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/2h0qd9wlagoz2tyl.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/2ibfapv4xv4di5kv.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/2o39odf38hbq48mx.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/2xo4bn9evr2mfrf2.o (100%)
+ create mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45rsw4g3-szivol-2asdlxstg0ndo/2zcg5iiq14bkvxsf.o
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/338ho4f08p44y08x.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/37dwasi9apa8pevv.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/3o150o4z05mhucpr.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/3p821gg7b0j8t0mj.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/46j56dt5hocqbhgi.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/4c243lyt08eatg7q.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/4k7v05uv81peme4n.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/4qkgm0wxg3l1kg7v.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/508ej319mj0ormr7.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/51hbjw3a78fzgnay.o (100%)
+ create mode 100644 ownership/target/debug/incremental/ownership-t6xvtms17jrp/s-fw45rsw4g3-szivol-2asdlxstg0ndo/58y2owtkhm01ey85.o
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/dep-graph.bin (69%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/fy6tugyuteztlf4.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/gmjvsmpjnydf7vt.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/lt1qyu99090hmqj.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/query-cache.bin (80%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/uhu7b8u0xe34eah.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/vxpyl7z3dqanubb.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/work-products.bin (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs-4mz1sdkactoz => s-fw45rsw4g3-szivol-2asdlxstg0ndo}/ykhqwr05fehjayy.o (100%)
+ rename ownership/target/debug/incremental/ownership-t6xvtms17jrp/{s-fw45lx8iw1-1wy96rs.lock => s-fw45rsw4g3-szivol.lock} (100%)
+takashi@Pomegranate ownership % git push
+git push
+Enumerating objects: 38, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (23/23), 958.85 KiB | 7.61 MiB/s, done.
+Total 23 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.        
+To https://github.com/takashi4233/rust.git
+   f151191..b590251  master -> master
+takashi@Pomegranate ownership % 
